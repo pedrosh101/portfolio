@@ -1,24 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import About from "./components/About";
+import Main from "./components/Main";
+import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Links from "./components/Links"
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+gsap.registerPlugin(ScrollTrigger);
+
+
+// import Scroll from "./components/SmoothScroll"
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Scroll /> */}
+      <Main />
+      <About />
+      <Projects />
+      <Contact
+        sentenceOne={"mande uma mensagem!"}
+        crossreveal={"yPercent"}
+      />
+      <Links />
+    </>
   );
 }
 

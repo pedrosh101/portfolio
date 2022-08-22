@@ -1,0 +1,25 @@
+
+*{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #7fb7be;
+    position: relative;
+    z-index: 5;
+    font-family: ken;
+}
+
+.block {
+    background-color: #7fb7be;
+    height: 40vh;
+    width: 100%;
+    position: absolute;
+    top: 60vh;
+}

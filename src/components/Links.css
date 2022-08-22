@@ -1,0 +1,34 @@
+.linksContainer {
+    background-color: #7fb7be;
+}
+
+.allLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5em;
+    font-size: 1.8em;
+    font-family: akz;
+    color: #233f57;
+}
+
+ion-icon {
+    font-size: 2em;
+    color: #233f57;
+    padding: 11px;
+}
+
+@media all and (max-width: 50em) {
+    .logoArea{
+        display: flex;
+    }
+
+    .mailArea p{
+        font-size: .8em;
+    }
+
+    ion-icon {
+        font-size: 1.8em;
+    }
+}
