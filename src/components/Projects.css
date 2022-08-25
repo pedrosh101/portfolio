@@ -1,4 +1,3 @@
-
 .projects {
     display: grid;
     grid-template-columns: repeat(1, 50%);
@@ -31,13 +30,16 @@ li {
     text-decoration: none;
 }
 
-.links a{
+.links a {
     color: #233f57;
     text-decoration: none;
+    position: relative;
 }
 
-.aviso {
-    color: black;
+.projects h5{
+    font-family: akz;
+    color: #233f57;
+    font-size: 1em;
     margin-top: 10px;
 }
 
@@ -68,17 +70,22 @@ span:hover~div {
         grid-template-columns: repeat(1, 70%);
     }
 
-    li{
+    li {
         margin-right: -30px;
     }
 
-    .title{
+    .title {
         font-size: 2.8em;
         letter-spacing: 6px;
     }
-    
+
+    .img-cont {
+        transform: translateX(-50px) scale(0.5);
+    }
+
     .projects p {
         font-size: 1.3em;
         letter-spacing: 4px;
     }
+
 }

@@ -34,7 +34,7 @@ function Projects() {
             <div className="img-cont">
               <img src={elem.img} alt={elem.name} />
             </div>
-            <p className="aviso">{elem.aviso}</p>
+            <h5 className="aviso">{elem.aviso}</h5>
             <div>
               <p className="links">{elem.text}</p>
               <p className="links">{elem.text2}</p>
@@ -42,10 +42,6 @@ function Projects() {
           </li>
         ))}
       </section>
-      <div
-        style={{ left: `${position.x}px`, top: `${position.y}px` }}
-        className="cursor"
-      ></div>
     </>
   );
 }
