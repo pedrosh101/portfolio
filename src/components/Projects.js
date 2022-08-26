@@ -42,6 +42,7 @@ function Projects() {
           </li>
         ))}
       </section>
+      <div style={{ left: `${position.x}px`, top: `${position.y}px` }}></div>
     </>
   );
 }

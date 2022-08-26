@@ -49,7 +49,7 @@ function About() {
             rodando pra baixo você pode conferir alguns deles.
           </h3>
         </div>
-        <img src="img/avatar4.png" className="me" alt="me"></img>
+        <img src="img/avatar.jpg" className="me" alt="me"></img>
       </section>
     </>
   );

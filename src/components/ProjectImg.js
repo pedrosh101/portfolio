@@ -3,7 +3,7 @@ export const ProjectImg = [
     id: 1,
     name: "Beauty Spa",
     aviso: "(em progresso)",
-    img: "../img/site1.png",
+    img: "../img/site1.jpg",
     text: (
       <a href="https://github.com/pedrosh101/beautyspa" target="blank">
         github
@@ -14,7 +14,7 @@ export const ProjectImg = [
     id: 2,
     name: "Eustaquio Neves",
     aviso: "(em progresso)",
-    img: "../img/site2.png",
+    img: "../img/site2.jpg",
     text: (
       <a href="https://github.com/pedrosh101/eustaquio" target="blank">
         github
@@ -24,7 +24,7 @@ export const ProjectImg = [
   {
     id: 3,
     name: "Fisio Mockups",
-    img: "../img/site3.png",
+    img: "../img/site3.jpg",
     text: (
       <a href="https://proj3-fisio.web.app/" target="blank">
         firebase1
@@ -40,7 +40,7 @@ export const ProjectImg = [
   {
     id: 4,
     name: "Weather App",
-    img: "../img/site4.png",
+    img: "../img/site4.jpg",
     text: (
       <a href="https://proj1-weather.web.app/" target="blank">
         firebase
@@ -55,7 +55,7 @@ export const ProjectImg = [
   {
     id: 5,
     name: "Meu Portfolio",
-    img: "../img/site5.png",
+    img: "../img/site5.jpg",
     text: (
       <a href="https://github.com/pedrosh101/portfolio" target="blank">
         github
