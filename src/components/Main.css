@@ -7,6 +7,7 @@
   display: flex;
   align-items: center;
   font-family: ken;
+  cursor: default;
 }
 
 .name {
@@ -46,8 +47,8 @@ h1 {
 
   .hero h1 {
     position: absolute;
-    margin: -300px 0 0 76px;
-    font-size: 2.7em;
+    margin: -300px 0 0 1.6em;
+    font-size: 2.7rem;
   }
 
   .hero {

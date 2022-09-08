@@ -44,7 +44,7 @@ function About() {
           <div className="line"></div>
           <h3>
             Como pode ver aqui na esquerda, meu nome é Pedro. estudo frontend e
-            tudo relacionado a web há um tempo já e venho desenvolvendo projetos
+            tudo relacionado à web há um tempo já e venho desenvolvendo projetos
             na área para pequenos e médios negócios aqui no interior de sp,
             rodando pra baixo você pode conferir alguns deles.
           </h3>

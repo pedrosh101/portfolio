@@ -8,13 +8,12 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
-// import Scroll from "./components/SmoothScroll"
+
 
 function App() {
 
   return (
     <>
-      {/* <Scroll /> */}
       <Main />
       <About />
       <Projects />
