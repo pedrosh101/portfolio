@@ -25,6 +25,12 @@ function Links() {
     <section className="linksContainer">
       <div className="allLinks" ref={linksRef}>
         <div className="logoArea">
+          <a href="https://wa.me/5512981622637" target="blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+          <a href="mailto:pedro.sh101@gmail.com" target="blank">
+            <ion-icon name="mail-outline"></ion-icon>
+          </a>
           <a
             href="https://www.linkedin.com/in/pedrohenriquedasilvalima/"
             target="blank"
@@ -34,9 +40,6 @@ function Links() {
           <a href="https://github.com/pedrosh101" target="blank">
             <ion-icon name="logo-github"></ion-icon>
           </a>
-        </div>
-        <div className="mailArea">
-          <p>pedro.sh101@gmail.com</p>
         </div>
       </div>
     </section>

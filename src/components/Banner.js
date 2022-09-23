@@ -22,7 +22,7 @@ function Banner() {
       .fromTo(
         open,
         { x: 0 },
-        { x: 2000, duration: 1.5, onComplete: allowSize}
+        { x: 3000, duration: 1.7, onComplete: allowSize}
       );
   }, []);
 
