@@ -1,10 +1,10 @@
-import "./Links.css";
+import "./Footer.css";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import { useRef, useEffect } from "react";
 gsap.registerPlugin(ScrollTrigger);
 
-function Links() {
+function Footer() {
   const linksRef = useRef(null);
 
   useEffect(() => {
@@ -46,4 +46,4 @@ function Links() {
   );
 }
 
-export default Links;
+export default Footer;

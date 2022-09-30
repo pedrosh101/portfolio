@@ -9,6 +9,12 @@
   src: url(./fonts/AkzidenzGrotesk-Light.otf)
 }
 
+:root {
+  --clr1: #c5e4da;
+  --clr2: #233f57;
+  --clr3: rgb(189, 204, 223);
+  --clr4: #76549A;
+}
 
 
 *{

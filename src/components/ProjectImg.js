@@ -16,8 +16,8 @@ export const ProjectImg = [
     aviso: "(em progresso)",
     img: "../img/site2.jpg",
     text: (
-      <a href="https://github.com/pedrosh101/eustaquio" target="blank">
-        github
+      <a href="https://resonant-torrone-ae6b29.netlify.app" target="blank">
+        netlify
       </a>
     ),
   },

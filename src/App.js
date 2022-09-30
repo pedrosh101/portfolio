@@ -1,8 +1,8 @@
 import About from "./components/About";
 import Main from "./components/Main";
 import Projects from "./components/Projects";
-import Contact from "./components/Contact";
-import Links from "./components/Links"
+import Invite from "./components/Invite";
+import Footer from "./components/Footer"
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
@@ -17,11 +17,11 @@ function App() {
       <Main />
       <About />
       <Projects />
-      <Contact
+      <Invite
         sentenceOne={"mande uma mensagem!"}
         crossreveal={"yPercent"}
       />
-      <Links />
+      <Footer />
     </>
   );
 }

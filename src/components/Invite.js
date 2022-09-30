@@ -1,10 +1,10 @@
 import React, { useRef, useEffect } from "react";
-import "./Contact.css";
+import "./Invite.css";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-function Contact({ sentenceOne, crossreveal }) {
+function Invite({ sentenceOne, crossreveal }) {
   const containerRef = useRef(null);
   const blueRef = useRef(null);
   const triggerRef = useRef(null);
@@ -56,4 +56,4 @@ function Contact({ sentenceOne, crossreveal }) {
   );
 }
 
-export default Contact;
+export default Invite;
