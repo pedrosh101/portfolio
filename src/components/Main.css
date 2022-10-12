@@ -1,4 +1,4 @@
-.hello-container {
+.frontContainer {
   top: 0;
   position: absolute;
   background-color: #c5e4da;
@@ -10,48 +10,120 @@
   cursor: default;
 }
 
-.name {
+.nameInverted {
   transform: rotate(270deg);
   position: fixed;
   color: #233f57;
   white-space: nowrap;
 }
 
-.name p{
+.nameInverted p{
   margin-bottom: 90%;
   font-size: 5.3vw;
 
 }
 
-.hero {
+.frontDev {
   width: 100%;
   padding: 6em;
 }
 
-h1 {
-  font-weight: 100;
-  font-size: 10rem;
-  color: #233f57;
-  text-align: right;
-  letter-spacing: 2px;
+
+/* about */
+
+.aboutContainer {
+  background-color: var(--clr1);
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  padding: 4em 0;
 }
+
+.textContainer {
+  grid-column: 3 / 7;
+  color: var(--clr2);
+  font-family: akz;
+  text-transform: uppercase;
+  margin-left: -80px;
+}
+
+.textContainer p {
+  letter-spacing: -.5px;
+  margin-bottom: .8em;
+  font-size: 1.5em;
+}
+
+.textContainer h3 {
+  text-indent: 3em;
+  letter-spacing: 1px;
+  font-size: 2em;
+  font-weight: 500;
+  line-height: 41px;
+}
+
+.line {
+  width: 100%;
+  border-bottom: 1.5px solid var(--clr2);
+  margin-bottom: 1em;
+}
+
+.me {
+  grid-column: 9 / 12;
+  width: 110%;
+  object-fit: contain;
+  align-self: flex-end;
+}
+
 
 
 
 @media all and (max-width: 50em) {
 
-  .name p {
+  .nameInverted p {
     align-items: initial;
-    font-size: 4.8em;
+    font-size: 4.7em;
   }
 
-  .hero h1 {
+  .frontDev h1 {
     position: absolute;
     margin: -300px 0 0 1.6em;
     font-size: 2.7rem;
   }
 
-  .hero {
-    padding: 1em;
+  .frontDev {
+    padding: 1.4em;
   }
+
+  /* about */
+
+  .aboutContainer {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+
+.aboutContainer img {
+    max-width: 70%;
+    margin: -65px 17px 0 0;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    margin: -60em 1em 0 8em;
+    font-size: .65em;
+    position: absolute;
+}
+
+.textContainer p {
+    letter-spacing: -.5px;
+    font-size: 1.4em;
+
+}
+
+.textContainer h3 {
+    text-indent: 3em;
+    letter-spacing: .8px;
+    font-size: 1.9em;
+    line-height: 35px;
+}
 }

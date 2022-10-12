@@ -15,7 +15,7 @@ li {
 .title {
     position: relative;
     font-family: ken;
-    font-size: 5.2em;
+    font-size: 5.5em;
     letter-spacing: 8px;
     color: #233f57;
     font-weight: 700;
@@ -24,7 +24,7 @@ li {
 
 .links {
     font-family: akz;
-    font-size: 1.5em;
+    font-size: 1.3em;
     letter-spacing: 6px;
     margin-top: 10px;
     text-decoration: none;
@@ -39,7 +39,7 @@ li {
 .projects h5{
     font-family: akz;
     color: #233f57;
-    font-size: 1em;
+    font-size: .9em;
     margin-top: 10px;
 }
 

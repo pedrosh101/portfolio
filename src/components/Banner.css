@@ -24,3 +24,9 @@
     position: absolute;
     top: 60vh;
 }
+
+@media all and (max-width: 50em){
+    .banner h1{
+        font-size: 8em;
+    }
+}

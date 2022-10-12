@@ -1,4 +1,4 @@
-import About from "./components/About";
+
 import Main from "./components/Main";
 import Projects from "./components/Projects";
 import Invite from "./components/Invite";
@@ -15,7 +15,6 @@ function App() {
   return (
     <>
       <Main />
-      <About />
       <Projects />
       <Invite
         sentenceOne={"mande uma mensagem!"}
