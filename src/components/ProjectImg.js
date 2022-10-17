@@ -23,20 +23,20 @@ export const ProjectImg = [
     id: 3,
     name: (
       <a href="https://luxury-wisp-2fbd9e.netlify.app/" target="blank">
-        Advocacia Mockup
+        Advocacia Modelo
       </a>
     ),
     aviso:"",
-    img: "../img/site2.jpg",
+    img: "../img/site3.jpg",
   },
   {
     id: 4,
     name: (
       <a href="https://voluble-platypus-a0a93f.netlify.app/" target="blank">
-        Academia Mockup
+        Academia Modelo
       </a>
     ),
-    img: "../img/site3.jpg",
+    img: "../img/site4.jpg",
   },
   {
     id: 5,
@@ -45,6 +45,6 @@ export const ProjectImg = [
         Weather App
       </a>
     ),
-    img: "../img/site4.jpg",
+    img: "../img/site5.jpg",
   },
 ];
