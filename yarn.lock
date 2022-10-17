@@ -3229,7 +3229,7 @@
   "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.24.1.tgz"
   "version" "3.24.1"
 
-"core-js@^3.19.2", "core-js@^3.6.4":
+"core-js@^3.19.2":
   "integrity" "sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg=="
   "resolved" "https://registry.npmjs.org/core-js/-/core-js-3.24.1.tgz"
   "version" "3.24.1"
@@ -5972,11 +5972,6 @@
   dependencies:
     "p-locate" "^5.0.0"
 
-"lodash-es@^4.17.21":
-  "integrity" "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="
-  "resolved" "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
-  "version" "4.17.21"
-
 "lodash.debounce@^4.0.8":
   "integrity" "sha512-FT1yDzDYEoYWhnSGnpE/4Kj1fLZkDFyqRb7fNt6FdYOSxlUWAtp42Eh6Wb0rGIv/m9Bgo7x4GhQbm5Ys4SG5ow=="
   "resolved" "https://registry.npmjs.org/lodash.debounce/-/lodash.debounce-4.0.8.tgz"
@@ -7944,20 +7939,6 @@
   "resolved" "https://registry.npmjs.org/slash/-/slash-4.0.0.tgz"
   "version" "4.0.0"
 
-"smooth-scrollbar-react@^2.3.0":
-  "integrity" "sha512-cxHLN0jn6bRfsSPnEGdEI6UnqtTcoLFwkXNqXbdsv21MLmrib46nIg0D84Z8YoruQApYpf20SJoUi3wrTO6V1g=="
-  "resolved" "https://registry.npmjs.org/smooth-scrollbar-react/-/smooth-scrollbar-react-2.3.0.tgz"
-  "version" "2.3.0"
-
-"smooth-scrollbar@^8.0.0", "smooth-scrollbar@^8.7.5":
-  "integrity" "sha512-eH3SdXfZQLscgAl5dRZ+L24ALffXkPLuB9us03Kaf/kJO0JfYtsZ398WD36139Sv4GYIQQHgzYPCkQpeV0tJAQ=="
-  "resolved" "https://registry.npmjs.org/smooth-scrollbar/-/smooth-scrollbar-8.7.5.tgz"
-  "version" "8.7.5"
-  dependencies:
-    "core-js" "^3.6.4"
-    "lodash-es" "^4.17.21"
-    "tslib" "^1.10.0"
-
 "sockjs@^0.3.24":
   "integrity" "sha512-GJgLTZ7vYb/JtPSSZ10hsOYIvEYsjbNU+zPdIHcUaWVNUEPivzxku31865sSSud0Da0W4lEeOPlmw93zLQchuQ=="
   "resolved" "https://registry.npmjs.org/sockjs/-/sockjs-0.3.24.tgz"
@@ -8494,11 +8475,6 @@
     "json5" "^1.0.1"
     "minimist" "^1.2.6"
     "strip-bom" "^3.0.0"
-
-"tslib@^1.10.0":
-  "integrity" "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="
-  "resolved" "https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz"
-  "version" "1.14.1"
 
 "tslib@^1.8.1":
   "integrity" "sha512-Xni35NKzjgMrwevysHTCArtLDpPvye8zV/0E4EyYn43P7/7qvQwPh9BGkHewbMulVntbigmcT7rdX3BNo9wRJg=="

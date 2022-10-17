@@ -11,8 +11,6 @@
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "smooth-scrollbar": "^8.7.5",
-    "smooth-scrollbar-react": "^2.3.0",
     "terser": "3.14.1",
     "web-vitals": "^2.1.4"
   },
