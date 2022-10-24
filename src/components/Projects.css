@@ -8,10 +8,6 @@
     justify-content: center;
 }
 
-li {
-    list-style: none;
-}
-
 .title {
     position: relative;
     font-family: ken;

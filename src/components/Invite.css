@@ -53,6 +53,10 @@
     margin-top: 1em;
 }
 
+.breakConvite{
+    display: none;
+}
+
 @media all and (max-width: 50em){
     .quoteFinal{
         font-size: 2.5em;
@@ -71,7 +75,11 @@
     }
 
     .convite{
-        font-size: 2.2em;
-        letter-spacing: 1px;
+        font-size: 1.8em;
+        letter-spacing: 1.4px;
+    }
+
+    .breakConvite{
+        display:inline;
     }
 }

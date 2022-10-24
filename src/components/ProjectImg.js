@@ -2,11 +2,11 @@ export const ProjectImg = [
   {
     id: 1,
     name: (
-      <a href="https://peaceful-fudge-338096.netlify.app/" target="blank">
+      <a href="https://beautyspavp.com.br/" target="blank">
         Beauty Spa
       </a>
     ),
-    aviso: "(em progresso)",
+    aviso: "",
     img: "../img/site1.jpg",
   },
   {
@@ -23,19 +23,20 @@ export const ProjectImg = [
     id: 3,
     name: (
       <a href="https://luxury-wisp-2fbd9e.netlify.app/" target="blank">
-        Advocacia Modelo
+        Advocacia
       </a>
     ),
-    aviso:"",
+    aviso:"(Modelo)",
     img: "../img/site3.jpg",
   },
   {
     id: 4,
     name: (
       <a href="https://voluble-platypus-a0a93f.netlify.app/" target="blank">
-        Academia Modelo
+        Academia
       </a>
     ),
+    aviso:"(Modelo)",
     img: "../img/site4.jpg",
   },
   {

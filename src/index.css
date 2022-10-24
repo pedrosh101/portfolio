@@ -31,3 +31,7 @@ h1 {
   text-align: right;
   letter-spacing: 2px;
 }
+
+li {
+  list-style: none;
+}

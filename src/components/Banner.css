@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     background-color: #7fb7be;
     position: relative;
     z-index: 5;
@@ -28,5 +28,9 @@
 @media all and (max-width: 50em){
     .banner h1{
         font-size: 8em;
+    }
+
+    .banner{
+        min-height: 100vh;
     }
 }

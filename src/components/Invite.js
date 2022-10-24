@@ -50,7 +50,7 @@ function Invite({ sentenceOne, crossreveal }) {
         <p className="quoteFinal" ref={quoteRef}>
           {sentenceOne}
         </p>
-        <p className="convite">vamos criar algo juntos?</p>
+        <p className="convite">vamos criar <br className="breakConvite"/>algo juntos?</p>
       </div>
     </section>
   );

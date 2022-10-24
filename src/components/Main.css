@@ -17,7 +17,7 @@
   white-space: nowrap;
 }
 
-.nameInverted p{
+.nameInverted p {
   margin-bottom: 90%;
   font-size: 5.3vw;
 
@@ -78,6 +78,18 @@
 
 @media all and (max-width: 50em) {
 
+  .frontContainer {
+    top: 0;
+    position: absolute;
+    background-color: #c5e4da;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    font-family: ken;
+    cursor: default;
+  }
+
   .nameInverted p {
     align-items: initial;
     font-size: 4.7em;
@@ -99,31 +111,39 @@
     display: flex;
     flex-direction: column;
     text-align: end;
-}
+    min-height: 35vh;
+  }
 
-.aboutContainer img {
+  .aboutContainer img {
     max-width: 70%;
-    margin: -65px 17px 0 0;
-}
 
-.textContainer {
+  }
+
+  .textContainer {
     display: flex;
     flex-direction: column;
     margin: -60em 1em 0 8em;
     font-size: .65em;
     position: absolute;
-}
+  }
 
-.textContainer p {
+  .textContainer p {
     letter-spacing: -.5px;
     font-size: 1.4em;
 
-}
+  }
 
-.textContainer h3 {
+  .textContainer h3 {
     text-indent: 3em;
     letter-spacing: .8px;
     font-size: 1.9em;
     line-height: 35px;
-}
+    position: relative;
+  }
+
+  .me {
+    position: absolute;
+    top: 87%;
+    padding-right: 1em;
+  }
 }
