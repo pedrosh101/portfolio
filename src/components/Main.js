@@ -1,13 +1,16 @@
 import React, { useEffect, useRef } from "react";
 import "./Main.css";
 import { gsap } from "gsap";
+import { useTranslation } from "react-i18next";
 import { TextPlugin } from "gsap/TextPlugin";
 import Banner from "./Banner";
+import Language from "./Language";
 gsap.registerPlugin(TextPlugin);
 
 function Main() {
   const helloRef = useRef();
   const txtRef = useRef(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const reference = txtRef.current;
@@ -57,22 +60,18 @@ function Main() {
         <div className="nameInverted">
           <p>Pedro Henrique Lima</p>
         </div>
+        <Language />
         <div className="frontDev">
           <h1 ref={helloRef}>{}</h1>
         </div>
-      </section>
-      <section className="aboutContainer">
-        <div className="textContainer" ref={txtRef}>
-          <p>Que bom que chegou aqui!</p>
-          <div className="line"></div>
-          <h3>
-            Como pode ver aqui na esquerda, meu nome é Pedro. estudo frontend e
-            tudo relacionado à web há um tempo já e venho desenvolvendo projetos
-            na área para pequenos e médios negócios aqui no interior de sp,
-            rodando pra baixo você pode conferir alguns deles.
-          </h3>
+        <div className="aboutContainer">
+          <div className="textContainer" ref={txtRef}>
+            <p>{t("main_title")}</p>
+            <div className="line"></div>
+            <h3>{t("main_quote")}</h3>
+          </div>
+          <img src="img/avatar.jpg" className="me" alt="me"></img>
         </div>
-        <img src="img/avatar.jpg" className="me" alt="me"></img>
       </section>
     </>
   );

@@ -17,7 +17,6 @@ function App() {
       <Main />
       <Projects />
       <Invite
-        sentenceOne={"mande uma mensagem!"}
         crossreveal={"yPercent"}
       />
       <Footer />

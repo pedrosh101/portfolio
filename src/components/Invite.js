@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import "./Invite.css";
 import { gsap } from "gsap";
+import { useTranslation } from "react-i18next";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
@@ -9,6 +10,7 @@ function Invite({ sentenceOne, crossreveal }) {
   const blueRef = useRef(null);
   const triggerRef = useRef(null);
   const quoteRef = useRef(null);
+  const { t } = useTranslation();
 
   useEffect(() => {
     const crossRevealTween = gsap.timeline({
@@ -48,9 +50,9 @@ function Invite({ sentenceOne, crossreveal }) {
       </div>
       <div className="textoPos">
         <p className="quoteFinal" ref={quoteRef}>
-          {sentenceOne}
+        {t("invite")}
         </p>
-        <p className="convite">vamos criar <br className="breakConvite"/>algo juntos?</p>
+        <p className="convite">{t("inviteQ")} <br className="breakConvite"/></p>
       </div>
     </section>
   );

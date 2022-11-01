@@ -3,29 +3,63 @@
   position: absolute;
   background-color: #c5e4da;
   width: 100%;
-  height: 100vh;
   display: flex;
+  flex-direction: column;
   align-items: center;
   font-family: ken;
   cursor: default;
 }
 
 .nameInverted {
-  transform: rotate(270deg);
+  writing-mode: vertical-rl;
   position: fixed;
   color: #233f57;
+  min-width: 100vw;
+  rotate: 180deg;
+  min-height: 100vh;
+  margin-right: 1em;
+  display: flex;
+  justify-content: center;
   white-space: nowrap;
 }
 
 .nameInverted p {
-  margin-bottom: 90%;
   font-size: 5.3vw;
-
 }
 
 .frontDev {
   width: 100%;
-  padding: 6em;
+  min-height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 6em;
+}
+
+.frontDev h1 {
+  font-size: 11.4em;
+}
+
+.lang {
+  position: absolute;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 25px;
+  gap: 10px;
+  z-index: 0;
+}
+
+.lang h4 {
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+
+
+.cont2 {
+  color: rgb(129, 142, 153);
 }
 
 
@@ -33,28 +67,29 @@
 
 .aboutContainer {
   background-color: var(--clr1);
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  padding: 4em 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 100vw;
+  gap: 8vw;
+  padding-bottom: 5em;
 }
 
 .textContainer {
-  grid-column: 3 / 7;
   color: var(--clr2);
   font-family: akz;
   text-transform: uppercase;
-  margin-left: -80px;
+  padding: 0 4em;
+  max-width: 45vw;
 }
 
 .textContainer p {
-  letter-spacing: -.5px;
   margin-bottom: .8em;
   font-size: 1.5em;
 }
 
 .textContainer h3 {
   text-indent: 3em;
-  letter-spacing: 1px;
+  letter-spacing: .8px;
   font-size: 2em;
   font-weight: 500;
   line-height: 41px;
@@ -67,8 +102,7 @@
 }
 
 .me {
-  grid-column: 9 / 12;
-  width: 110%;
+  width: 25vw;
   object-fit: contain;
   align-self: flex-end;
 }
@@ -79,30 +113,40 @@
 @media all and (max-width: 50em) {
 
   .frontContainer {
-    top: 0;
-    position: absolute;
-    background-color: #c5e4da;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    font-family: ken;
-    cursor: default;
+    min-height: 100vh;
+    align-items: initial;
+    gap: 2em;
   }
 
   .nameInverted p {
-    align-items: initial;
-    font-size: 4.7em;
+    font-size: 4.6em;
   }
 
   .frontDev h1 {
+    position: inherit;
+    margin: 6em .4em 0 0;
+    font-size: 2.6rem;
     position: absolute;
-    margin: -300px 0 0 1.6em;
-    font-size: 2.7rem;
   }
 
   .frontDev {
-    padding: 1.4em;
+    padding: 1em;
+    width: 100%;
+    min-height: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 0em;
+  }
+
+  .lang {
+    position: absolute;
+    display: flex;
+    gap: 0px;
+    justify-self: flex-end;
+    padding: 20px 10px 20px 0;
+    z-index: 0;
+    font-size: .9em;
   }
 
   /* about */
@@ -110,21 +154,19 @@
   .aboutContainer {
     display: flex;
     flex-direction: column;
+    align-items: flex-end;
     text-align: end;
-    min-height: 40vh;
+    margin-top: 11em;
   }
 
-  .aboutContainer img {
-    max-width: 70%;
-
-  }
 
   .textContainer {
     display: flex;
     flex-direction: column;
-    margin: -60em 1em 0 8em;
+    justify-content: flex-end;
+    padding: 0em 1.8em 0 0;
+    max-width: 80vw;
     font-size: .65em;
-    position: absolute;
   }
 
   .textContainer p {
@@ -137,13 +179,11 @@
     text-indent: 3em;
     letter-spacing: .8px;
     font-size: 1.9em;
-    line-height: 35px;
-    position: relative;
+    line-height: 32px;
   }
 
   .me {
-    position: absolute;
-    top: 92vh;
-    padding-right: 1em;
+    padding-right: 1.2em;
+    width: 60vw;
   }
 }

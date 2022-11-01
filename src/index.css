@@ -32,6 +32,11 @@ h1 {
   letter-spacing: 2px;
 }
 
+h4{
+  color: #233f57;
+}
+
 li {
   list-style: none;
+  z-index: 9999;
 }

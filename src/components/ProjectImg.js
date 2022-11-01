@@ -13,7 +13,7 @@ export const ProjectImg = [
     id: 2,
     name: (
       <a href="https://resonant-torrone-ae6b29.netlify.app" target="blank">
-        Eustaquio Neves
+        Eustaquio < br className="breakConvite"/> Neves
       </a>
     ),
     aviso: "(em progresso)",
@@ -43,7 +43,7 @@ export const ProjectImg = [
     id: 5,
     name: (
       <a href="https://proj1-weather.web.app/" target="blank">
-        Weather App
+        Weather < br className="breakConvite"/>App
       </a>
     ),
     img: "../img/site5.jpg",

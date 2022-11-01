@@ -35,10 +35,6 @@ function Projects() {
               <img src={elem.img} alt={elem.name} />
             </div>
             <h5 className="aviso">{elem.aviso}</h5>
-            <div>
-              <p className="links">{elem.text}</p>
-              <p className="links">{elem.text2}</p>
-            </div>
           </li>
         ))}
       </section>
