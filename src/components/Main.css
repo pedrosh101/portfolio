@@ -45,11 +45,11 @@
   display: flex;
   justify-content: flex-end;
   min-width: 100vw;
-  min-height: 100vh;
   padding: 25px;
   gap: 10px;
   z-index: 0;
 }
+
 
 .lang h4 {
   font-size: 1.2em;
@@ -123,7 +123,6 @@
   }
 
   .frontDev h1 {
-    position: inherit;
     margin: 6em .4em 0 0;
     font-size: 2.6rem;
     position: absolute;
@@ -140,12 +139,8 @@
   }
 
   .lang {
-    position: absolute;
-    display: flex;
     gap: 0px;
-    justify-self: flex-end;
     padding: 20px 10px 20px 0;
-    z-index: 0;
     font-size: .9em;
   }
 
@@ -165,13 +160,13 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 0em 1.8em 0 0;
-    max-width: 80vw;
-    font-size: .65em;
+    max-width: 75vw;
+    font-size: .6em;
   }
 
   .textContainer p {
     letter-spacing: -.5px;
-    font-size: 1.4em;
+    font-size: 1.6em;
 
   }
 

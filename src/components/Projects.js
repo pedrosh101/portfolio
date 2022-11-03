@@ -29,7 +29,7 @@ function Projects() {
     <>
       <section className="projects">
         {ProjectImg.map((elem, i) => (
-          <li key={i} className="li">
+          <li key={i}>
             <span className="title">{elem.name}</span>
             <div className="img-cont">
               <img src={elem.img} alt={elem.name} />

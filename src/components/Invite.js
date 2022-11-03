@@ -5,7 +5,7 @@ import { useTranslation } from "react-i18next";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
-function Invite({ sentenceOne, crossreveal }) {
+function Invite({ crossreveal }) {
   const containerRef = useRef(null);
   const blueRef = useRef(null);
   const triggerRef = useRef(null);

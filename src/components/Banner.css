@@ -11,9 +11,9 @@
     align-items: center;
     min-height: 100vh;
     background-color: #7fb7be;
-    position: relative;
     z-index: 5;
     font-family: ken;
+    position: relative;
     cursor: default;
 }
 
@@ -28,9 +28,5 @@
 @media all and (max-width: 50em){
     .banner h1{
         font-size: 8em;
-    }
-
-    .banner{
-        min-height: 100vh;
     }
 }
