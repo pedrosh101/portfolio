@@ -10,6 +10,7 @@
     padding: 5em;
     font-size: 1.8em;
     font-family: akz;
+    min-width: 100vw;
     color: #233f57;
 }
 
