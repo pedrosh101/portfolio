@@ -120,14 +120,12 @@
 
   .nameInverted p {
     font-size: 4.5em;
-    position: absolute;
-    right: -2vw;
   }
 
   .frontDev h1 {
-    margin: 6em .4em 0 0;
+    margin: 2em .2em 0 0;
     font-size: 2.6rem;
-    position: absolute;
+
   }
 
   .frontDev {
@@ -153,7 +151,6 @@
     flex-direction: column;
     align-items: flex-end;
     text-align: end;
-    margin-top: 11em;
   }
 
 
