@@ -84,19 +84,25 @@ span:hover~div {
         
     }
 
-    /* If the screen size is 701px or more */
+    /* If the screen size is 901px or more */
 
-    @media all and (min-height: 751px){
+    @media all and (min-height: 901px){
+        .projects {
+            padding-top: 20vh;
+        }
+    }
+
+    /* If the screen size is 900px or less */
+
+    @media all and (max-height: 900px){
         .projects {
             padding-top: 25vh;
         }
     }
 
-    /* If the screen size is 701px or less */
-
-    @media all and (max-height: 750px){
+    @media all and (max-height: 780px){
         .projects {
-            padding-top: 55vh;
+            padding-top: 50vh;
         }
     }
 
