@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-top: 90vh;
+    padding-top: 4.5em;
     gap: 110px;
     background-color: #b0ccc2;
     min-width: 100vw;
@@ -56,7 +56,8 @@ span:hover~div {
 @media all and (max-width: 50em) {
     .projects {
         align-items: flex-end;
-        gap: 80px;
+        gap: 70px;
+        padding-top: 2em;
     }
 
     .projects li {
@@ -83,31 +84,4 @@ span:hover~div {
         
         
     }
-
-    /* If the screen size is 901px or more */
-
-    @media all and (min-height: 901px){
-        .projects {
-            padding-top: 20vh;
-        }
-    }
-
-    /* If the screen size is 900px or less */
-
-    @media all and (max-height: 900px){
-        .projects {
-            padding-top: 25vh;
-        }
-    }
-
-    @media all and (max-height: 780px){
-        .projects {
-            padding-top: 50vh;
-        }
-    }
-
-
-
-
-
 }

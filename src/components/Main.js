@@ -64,7 +64,7 @@ function Main() {
         <div className="frontDev">
           <h1 ref={helloRef}>{}</h1>
         </div>
-        <div className="aboutContainer">
+        <div className="aboutContainerPhone">
           <div className="textContainer" ref={txtRef}>
             <p>{t("main_title")}</p>
             <div className="line"></div>
@@ -73,6 +73,14 @@ function Main() {
           <img src="img/avatar.jpg" className="me" alt="me"></img>
         </div>
       </section>
+      <div className="aboutContainer">
+        <div className="textContainer" ref={txtRef}>
+          <p>{t("main_title")}</p>
+          <div className="line"></div>
+          <h3>{t("main_quote")}</h3>
+        </div>
+        <img src="img/avatar.jpg" className="me" alt="me"></img>
+      </div>
     </>
   );
 }

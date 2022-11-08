@@ -24,7 +24,7 @@
 }
 
 .nameInverted p {
-  font-size: 5.3vw;
+  font-size: 5.1vw;
 }
 
 .frontDev {
@@ -70,8 +70,11 @@
   display: flex;
   justify-content: space-between;
   max-width: 100vw;
-  gap: 8vw;
-  padding-bottom: 3em;
+  padding: 0 10em 5em 10em;
+}
+
+.aboutContainerPhone {
+  display: none;
 }
 
 .textContainer {
@@ -113,7 +116,7 @@
 @media all and (max-width: 50em) {
 
   .frontContainer {
-    min-height: 100vh;
+    height: 100vh;
     align-items: initial;
     gap: 2em;
   }
@@ -147,10 +150,16 @@
   /* about */
 
   .aboutContainer {
+    display: none;
+  }
+
+  .aboutContainerPhone {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
     text-align: end;
+    padding-bottom: 2em;
+
   }
 
 
@@ -177,7 +186,6 @@
   }
 
   .me {
-    padding-right: 1.2em;
-    width: 60vw;
+    display: none;
   }
 }
