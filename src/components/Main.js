@@ -1,13 +1,15 @@
-import React, { useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import "./Main.css";
 import { gsap } from "gsap";
 import { useTranslation } from "react-i18next";
 import { TextPlugin } from "gsap/TextPlugin";
 import Banner from "./Banner";
 import Language from "./Language";
+import Modal from "./Modal";
 gsap.registerPlugin(TextPlugin);
 
 function Main() {
+  const [openModal, setOpenModal] = useState(false);
   const helloRef = useRef();
   const txtRef = useRef(null);
   const { t } = useTranslation();
@@ -70,17 +72,20 @@ function Main() {
             <div className="line"></div>
             <h3>{t("main_quote")}</h3>
           </div>
-          <img src="img/avatar.jpg" className="me" alt="me"></img>
         </div>
       </section>
-      <div className="aboutContainer">
+      <div className="aboutContainerDesk">
         <div className="textContainer" ref={txtRef}>
           <p>{t("main_title")}</p>
           <div className="line"></div>
           <h3>{t("main_quote")}</h3>
+          <h4 className="modalBtn" onClick={() => setOpenModal(true)}>
+            Link
+          </h4>
         </div>
-        <img src="img/avatar.jpg" className="me" alt="me"></img>
+        <img src="img/avatar.jpg" className="me" alt="me" />
       </div>
+      <Modal open={openModal} onClose={() => setOpenModal(false)} />
     </>
   );
 }

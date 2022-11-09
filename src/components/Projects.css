@@ -57,7 +57,7 @@ span:hover~div {
     .projects {
         align-items: flex-end;
         gap: 70px;
-        padding-top: 2em;
+        padding-top: 3em;
     }
 
     .projects li {
@@ -81,7 +81,5 @@ span:hover~div {
     .projects p {
         font-size: 1.3em;
         letter-spacing: 4px;
-        
-        
     }
 }
