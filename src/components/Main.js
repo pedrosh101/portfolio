@@ -71,6 +71,9 @@ function Main() {
             <p>{t("main_title")}</p>
             <div className="line"></div>
             <h3>{t("main_quote")}</h3>
+            <h4 className="modalBtn" onClick={() => setOpenModal(true)}>
+              Link
+            </h4>
           </div>
         </div>
       </section>

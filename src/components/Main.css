@@ -59,7 +59,7 @@
 
 
 .cont2 {
-  color: rgb(129, 142, 153);
+  color: #818e99;
 }
 
 
@@ -112,7 +112,7 @@
 
 /* modal */
 
-.modalBtn{
+.modalBtn {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   font-size: 1.5em;
@@ -127,12 +127,12 @@
   cursor: pointer;
 }
 
-h4:hover{
+h4:hover {
   color: #233f57;
 }
 
 
-.overlay{
+.overlay {
   background-color: rgba(113, 149, 155, 0.8);
   position: absolute;
   top: 0;
@@ -140,7 +140,7 @@ h4:hover{
   height: 500%;
 }
 
-.modalContainer{
+.modalContainer {
   max-width: 50em;
   width: 100%;
   position: fixed;
@@ -148,26 +148,43 @@ h4:hover{
   left: 50%;
   transform: translate(-50%, -50%);
   display: flex;
-  background-color: #deebee;
-  padding: 2em;
+  background-color: #d4ecf1;
+  padding: 5em 3em;
+  z-index: 555;
 }
 
-.modalTop{
+.modalTop {
   width: 100%;
 }
 
-.closeBtn{
+.closeBtn {
   position: fixed;
   top: 8px;
   right: 8px;
   cursor: pointer;
+  width: 1.5em;
 }
 
-.contentModal{
+.contentModal {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1em;
+}
+
+.contentModal h2, .contentModal h3 {
+  padding: .3em;
+  font-family: ken;
+  color: var(--clr2);
+  font-size: 2em;
+}
+
+.contentModal p {
+  font-family: akz;
+  color: var(--clr2);
+  font-size: 1.5em;
+  font-weight: 100;
 }
 
 @media all and (max-width: 50em) {
@@ -237,14 +254,38 @@ h4:hover{
     font-size: 1.9em;
     line-height: 32px;
   }
+
+  /* modal */
+
+  .modalBtn {
+    font-size: 2em;
+    padding: 1em .5em 0 0;
+    z-index: 1;
+  }
+
+  .modalContainer {
+    width: 85%;
+    padding: 2em 2em;
+  }
+
+  .contentModal h2, .contentModal h3 {
+    font-size: 1.7em;
+    letter-spacing: 1.2px;
+    text-align: center;
+  }
+  
+  .contentModal p {
+    text-align: center;
+    font-size: 1.2em;
+  }
 }
 
 @media all and (max-height: 770px) {
-  .textContainer{
+  .textContainer {
     font-size: .55em;
   }
-  
-  .textContainer h3{
+
+  .textContainer h3 {
     line-height: 28px;
   }
 }
