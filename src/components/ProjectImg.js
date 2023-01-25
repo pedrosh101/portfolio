@@ -2,21 +2,21 @@ export const ProjectImg = [
   {
     id: 1,
     name: (
-      <a href="https://beautyspavp.com.br/" target="blank">
-        Beauty Spa
+      <a href="https://magenta-capybara-9ccd96.netlify.app/" target="blank">
+        Goliath
       </a>
     ),
-    aviso: "",
+    aviso: "(fic store)",
     img: "../img/site1.jpg",
   },
   {
     id: 2,
     name: (
-      <a href="https://resonant-torrone-ae6b29.netlify.app" target="blank">
-        Eustaquio < br className="breakConvite"/> Neves
+      <a href="https://beautyspavp.com.br/" target="blank">
+        Beauty Spa
       </a>
     ),
-    aviso: "(em progresso)",
+    aviso: "",
     img: "../img/site2.jpg",
   },
   {
@@ -42,10 +42,11 @@ export const ProjectImg = [
   {
     id: 5,
     name: (
-      <a href="https://proj1-weather.web.app/" target="blank">
-        Weather < br className="breakConvite"/>App
+      <a href="https://resonant-torrone-ae6b29.netlify.app" target="blank">
+        Eustaquio < br className="breakConvite"/> Neves
       </a>
     ),
+    aviso: "(em progresso)",
     img: "../img/site5.jpg",
   },
 ];
