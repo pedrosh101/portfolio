@@ -1,10 +1,8 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import close from "../svg/close.svg"
-
+import close from "../svg/close.svg";
 
 function Modal({ open, onClose }) {
-
   const { t } = useTranslation();
 
   if (!open) return null;
@@ -19,15 +17,17 @@ function Modal({ open, onClose }) {
         <div className="modalTop">
           <img src={close} alt="x" onClick={onClose} className="closeBtn" />
           <div className="contentModal">
-              <h2>{t("modal1")}</h2>
-              <p>{t("modal2")}</p>
-              <h3>web development</h3>
-              <p>HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, BOOTSTRAP</p>
-              <h3>web design</h3>
-              <p>PHOTOSHOP, FIGMA</p>
+            <h2>{t("modal1")}</h2>
+            <p>{t("modal2")}</p>
+            <h3>web development</h3>
+            <p>
+              HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXT, TAILWIND &
+              BOOTSTRAP
+            </p>
+            <h3>web design</h3>
+            <p>PHOTOSHOP, ILLUSTRATOR, FIGMA</p>
           </div>
         </div>
-        {/* <img src="img/avatar.jpg" className="me" alt="me" /> */}
       </div>
     </div>
   );
