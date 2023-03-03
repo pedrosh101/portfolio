@@ -59,9 +59,7 @@ function Main() {
     <>
       <Banner />
       <section className="frontContainer">
-        <div className="nameInverted">
-          <p>Pedro Henrique Lima</p>
-        </div>
+        <p className="nameInverted">Pedro Henrique Lima</p>
         <Language />
         <div className="frontDev">
           <h1 ref={helloRef}>{}</h1>
