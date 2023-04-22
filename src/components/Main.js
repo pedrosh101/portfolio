@@ -84,7 +84,7 @@ function Main() {
             Link
           </h4>
         </div>
-        <img src="img/avatar.jpg" className="me" alt="me" />
+        <img src="img/avatar.png" className="me" alt="me" />
       </div>
       <Modal open={openModal} onClose={() => setOpenModal(false)} />
     </>

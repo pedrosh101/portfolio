@@ -127,7 +127,6 @@ h4:hover {
   color: #233f57;
 }
 
-
 .overlay {
   background-color: rgba(113, 149, 155, 0.8);
   position: absolute;
@@ -174,6 +173,7 @@ h4:hover {
   font-family: ken;
   color: var(--clr2);
   font-size: 2em;
+  letter-spacing: .06em;
 }
 
 .contentModal p {
@@ -235,7 +235,7 @@ h4:hover {
     flex-direction: column;
     justify-content: flex-end;
     padding: 0em 1.8em 0 0;
-    max-width: 75vw;
+    max-width: 77vw;
     font-size: .6em;
   }
 

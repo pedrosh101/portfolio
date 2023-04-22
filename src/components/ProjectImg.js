@@ -2,18 +2,18 @@ export const ProjectImg = [
   {
     id: 1,
     name: (
-      <a href="https://magenta-capybara-9ccd96.netlify.app/" target="blank">
-        Goliath
+      <a href="https://torodan.com/" target="blank">
+        Torodan
       </a>
     ),
-    aviso: "(fic store)",
+    aviso: "",
     img: "../img/site1.jpg",
   },
   {
     id: 2,
     name: (
-      <a href="https://beautyspavp.com.br/" target="blank">
-        Beauty Spa
+      <a href="https://photographgrid.netlify.app/" target="blank">
+        Fotografia
       </a>
     ),
     aviso: "",
@@ -22,21 +22,21 @@ export const ProjectImg = [
   {
     id: 3,
     name: (
-      <a href="https://luxury-wisp-2fbd9e.netlify.app/" target="blank">
-        Advocacia
+      <a href="https://goliathstore.netlify.app/" target="blank">
+        Goliath
       </a>
     ),
-    aviso:"(Modelo)",
+    aviso:"(fic store)",
     img: "../img/site3.jpg",
   },
   {
     id: 4,
     name: (
-      <a href="https://voluble-platypus-a0a93f.netlify.app/" target="blank">
-        Academia
+      <a href="https://beautyspavp.com.br/" target="blank">
+        Beauty Spa
       </a>
     ),
-    aviso:"(Modelo)",
+    aviso:"",
     img: "../img/site4.jpg",
   },
   {

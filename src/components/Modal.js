@@ -19,13 +19,13 @@ function Modal({ open, onClose }) {
           <div className="contentModal">
             <h2>{t("modal1")}</h2>
             <p>{t("modal2")}</p>
-            <h3>web development</h3>
+            <h3>Web Development</h3>
             <p>
               HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXT, TAILWIND &
               BOOTSTRAP
             </p>
-            <h3>web design</h3>
-            <p>PHOTOSHOP, ILLUSTRATOR, FIGMA</p>
+            <h3>Web Design</h3>
+            <p>PHOTOSHOP, ILLUSTRATOR, FIGMA, CANVA & DAVINCI RESOLVE</p>
           </div>
         </div>
       </div>
