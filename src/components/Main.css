@@ -236,7 +236,7 @@ h4:hover {
     justify-content: flex-end;
     padding: 0em 1.8em .5em 0;
     max-width: 77vw;
-    font-size: .58em;
+    font-size: .60em;
   }
 
   .textContainer p {
@@ -249,6 +249,7 @@ h4:hover {
     letter-spacing: .5px;
     font-size: 2.0em;
     line-height: 28px;
+    margin-bottom: 1em;
   }
 
   /* modal */
@@ -259,21 +260,6 @@ h4:hover {
     z-index: 1;
   }
 
-  .modalContainer {
-    width: 85%;
-    padding: 2em 2em;
-  }
-
-  .contentModal h2, .contentModal h3 {
-    font-size: 1.7em;
-    letter-spacing: 1.2px;
-    text-align: center;
-  }
-  
-  .contentModal p {
-    text-align: center;
-    font-size: 1.2em;
-  }
 }
 
 @media all and (max-height: 770px) {
