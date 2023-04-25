@@ -202,13 +202,13 @@ h4:hover {
   }
 
   .frontDev {
-    padding: 1em;
+    padding: 0;
     width: 100%;
     min-height: 0;
     display: flex;
     justify-content: flex-end;
-    align-items: center;
-    padding-right: 0em;
+    align-items:flex-start;
+
   }
 
   .lang {
