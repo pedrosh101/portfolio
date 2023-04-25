@@ -248,7 +248,7 @@ h4:hover {
     text-indent: 3em;
     letter-spacing: .5px;
     font-size: 2.0em;
-    line-height: 28px;
+    line-height: 26px;
     margin-bottom: 1em;
   }
 
@@ -256,7 +256,7 @@ h4:hover {
 
   .modalBtn {
     font-size: 2em;
-    padding: 1em .5em 1em 0;
+    padding: 0em .5em 1em 0;
     z-index: 1;
   }
 
