@@ -1,38 +1,38 @@
 .linksContainer {
-    background-color: #7fb7be;
+  background-color: #7fb7be;
 }
 
-.allLinks{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 5em;
-    font-size: 1.8em;
-    font-family: akz;
-    min-width: 100vw;
-    color: #233f57;
+.allLinks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5em;
+  font-size: 1.8em;
+  font-family: akz;
+  min-width: 100vw;
+  color: #233f57;
 }
 
 ion-icon {
-    font-size: 1.6em;
-    color: #233f57;
-    padding: 18px;
+  font-size: 1.6em;
+  color: #233f57;
+  padding: 18px;
 }
 
 @media all and (max-width: 50em) {
-    .logoArea{
-        display: flex;
-    }
+  .logoArea {
+    display: flex;
+  }
 
-    .allLinks{
-        justify-content: flex-end;
-        align-items: flex-end;
-        padding: 5em 0.6em;
-    }
+  .allLinks {
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 5em 0.6em;
+  }
 
-    ion-icon {
-        font-size: 1.2em;
-        padding: 11px;
-    }
+  ion-icon {
+    font-size: 1.2em;
+    padding: 11px;
+  }
 }

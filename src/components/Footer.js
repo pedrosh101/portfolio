@@ -32,10 +32,10 @@ function Footer() {
             <ion-icon name="mail-outline"></ion-icon>
           </a>
           <a
-            href="https://www.linkedin.com/in/pedrohenriquedasilvalima/"
+            href="https://www.behance.net/pedrosh101"
             target="blank"
           >
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <ion-icon name="logo-behance"></ion-icon>
           </a>
           <a href="https://github.com/pedrosh101" target="blank">
             <ion-icon name="logo-github"></ion-icon>

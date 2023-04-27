@@ -183,6 +183,8 @@ h4:hover {
   font-weight: 100;
 }
 
+
+
 @media all and (max-width: 50em) {
 
   .frontContainer {
@@ -259,6 +261,23 @@ h4:hover {
     padding: 0em .5em 1em 0;
     z-index: 1;
   }
+
+  .modalContainer {
+    width: 85%;
+    padding: 2em 2em;
+  }
+
+  .contentModal h2, .contentModal h3 {
+    font-size: 1.7em;
+    letter-spacing: 1.2px;
+    text-align: center;
+  }
+  
+  .contentModal p {
+    text-align: center;
+    font-size: 1.2em;
+  }
+
 
 }
 
