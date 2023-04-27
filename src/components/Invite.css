@@ -38,7 +38,7 @@
 
 .quoteFinal {
     font-weight: 200;
-    font-size: 6.7em;
+    font-size: 6vw;
     letter-spacing: .06em;
     color: #233f57;
     font-family: ken;
@@ -47,7 +47,7 @@
 
 .convite {
     font-family: akz;
-    font-size: 1.9em;
+    font-size: 1.6vw;
     letter-spacing: 6.2px;
     color: #233f57;
     margin-top: 1em;
