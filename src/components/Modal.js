@@ -21,8 +21,8 @@ function Modal({ open, onClose }) {
             <p>{t("modal2")}</p>
             <h3>Web Development</h3>
             <p>
-              HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXT, TAILWIND &
-              BOOTSTRAP
+              HTML, CSS, JAVASCRIPT, TYPESCRIPT, REACT, NEXT, TAILWIND,
+              BOOTSTRAP & WORDPRESS
             </p>
             <h3>Web Design</h3>
             <p>PHOTOSHOP, ILLUSTRATOR, FIGMA, CANVA & DAVINCI RESOLVE</p>

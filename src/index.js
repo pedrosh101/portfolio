@@ -23,12 +23,12 @@ i18n
     },
   });
 
-const loadingMarkup = <h2>loading...</h2>;
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <Suspense fallback={loadingMarkup}>
+  <Suspense>
     <React.StrictMode>
       <App />
     </React.StrictMode>
