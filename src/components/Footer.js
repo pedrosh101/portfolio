@@ -40,6 +40,9 @@ function Footer() {
           <a href="https://github.com/pedrosh101" target="blank">
             <ion-icon name="logo-github"></ion-icon>
           </a>
+          <a href="https://www.linkedin.com/in/pedrohenriquedasilvalima/" target="blank">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a>
         </div>
       </div>
     </section>
