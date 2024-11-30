@@ -79,6 +79,8 @@
   text-transform: uppercase;
   padding: 0 4em;
   max-width: 45vw;
+  text-align: justify;
+  position: relative; /* Adicionado para criar um contexto de posicionamento */
 }
 
 .textContainer p {
@@ -115,12 +117,16 @@
   color: blue;
   text-transform: lowercase;
   letter-spacing: 4px;
-  display: flex;
-  justify-content: flex-end;
   font-weight: 100;
   text-decoration: underline;
   padding: 1em 2em 0 0;
   cursor: pointer;
+
+  /* Garantir que ele fique na extremidade direita */
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: right; /* Se o texto for mais longo, mantém alinhado à direita */
 }
 
 h4:hover {
@@ -136,7 +142,7 @@ h4:hover {
 }
 
 .modalContainer {
-  max-width: 50em;
+  max-width: 38em;
   width: 100%;
   position: fixed;
   top: 50%;
@@ -144,7 +150,7 @@ h4:hover {
   transform: translate(-50%, -50%);
   display: flex;
   background-color: #d4ecf1;
-  padding: 5em 3em;
+  padding: 4em 3em;
   z-index: 555;
 }
 
@@ -163,17 +169,20 @@ h4:hover {
 .contentModal {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
   gap: 1em;
 }
 
 .contentModal h2, .contentModal h3 {
-  padding: .3em;
+  padding: .3em 0;
   font-family: ken;
   color: var(--clr2);
   font-size: 2em;
   letter-spacing: .06em;
+}
+
+.contentModal h2{
+  margin-top: 30px;
 }
 
 .contentModal p {
@@ -183,10 +192,7 @@ h4:hover {
   font-weight: 100;
 }
 
-
-
 @media all and (max-width: 50em) {
-
   .frontContainer {
     height: 100vh;
     align-items: initial;
@@ -194,7 +200,7 @@ h4:hover {
   }
 
   .nameInverted {
-    font-size: 4.2em;
+    font-size: 4em;
   }
 
   .frontDev h1 {
