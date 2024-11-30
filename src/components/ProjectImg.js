@@ -2,51 +2,51 @@ export const ProjectImg = [
   {
     id: 1,
     name: (
-      <a href="https://torodan.com/" target="blank">
-        Torodan
+      <a href="https://estudiomasca.com/" target="blank">
+        Masca
       </a>
     ),
     aviso: "",
-    img: "../img/site1.jpg",
+    img: "../img/em.jpg",
   },
   {
     id: 2,
     name: (
-      <a href="https://photographgrid.netlify.app/" target="blank">
-        Fotografia
+      <a href="https://artofmala.com/" target="blank">
+        Art Of Mala
       </a>
     ),
     aviso: "",
-    img: "../img/site2.jpg",
+    img: "../img/ms.jpg",
   },
   {
     id: 3,
     name: (
-      <a href="https://goliathstore.netlify.app/" target="blank">
-        Goliath
+      <a href="https://viggianiarquitetura.com/" target="blank">
+        Viggiani< br className="breakConvite"/> Arquitetura
       </a>
     ),
-    aviso:"(fic store)",
-    img: "../img/site3.jpg",
+    aviso:"",
+    img: "../img/va.jpg",
   },
   {
     id: 4,
     name: (
-      <a href="https://beautyspavp.com.br/" target="blank">
-        Beauty Spa
+      <a href="https://nicolevalente.com.br/" target="blank">
+        Nicole< br className="breakConvite"/> Valente
       </a>
     ),
     aviso:"",
-    img: "../img/site4.jpg",
+    img: "../img/nv.jpg",
   },
   {
     id: 5,
     name: (
-      <a href="https://resonant-torrone-ae6b29.netlify.app" target="blank">
-        Eustaquio < br className="breakConvite"/> Neves
+      <a href="https://arlivreeditora.com.br/" target="blank">
+        Editora < br className="breakConvite"/> Ar Livre
       </a>
     ),
-    aviso: "(em progresso)",
-    img: "../img/site5.jpg",
+    aviso: "",
+    img: "../img/al.jpg",
   },
 ];
