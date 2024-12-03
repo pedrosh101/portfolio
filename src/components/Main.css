@@ -80,7 +80,7 @@
   padding: 0 4em;
   max-width: 45vw;
   text-align: justify;
-  position: relative; /* Adicionado para criar um contexto de posicionamento */
+  position: relative;
 }
 
 .textContainer p {
