@@ -119,11 +119,10 @@
   letter-spacing: 4px;
   font-weight: 100;
   text-decoration: underline;
-  padding: 0 2em 0 0;
+  padding: 1em 2em 0 0;
   cursor: pointer;
   position: absolute;
   right: 0;
-  bottom: 0;
   text-align: right;
 }
 
@@ -262,11 +261,9 @@ h4:hover {
 
   .modalBtn {
     font-size: 2em;
-    padding: 4em 2em 0 0;
     z-index: 1;
-    position: absolute;
-    right: 0;
-    bottom: 20;
+    padding: .5em .5em 0 0;
+    position: relative;
   }
 
   .modalContainer {
